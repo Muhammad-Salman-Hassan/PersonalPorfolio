@@ -496,12 +496,14 @@ body {
     height: 30px;
     /* background-color: #00eaff; */
     margin: 20px;
+    border-radius: 50%;
     filter: grayscale(1);
     border-radius: 50%;
   }
   .icondiv img {
     width: 100%;
     height: 100%;
+    border-radius: 50%;
   }
   .icondiv:hover {
     filter: grayscale(0);
@@ -1812,4 +1814,25 @@ body {
       margin-left: 0;
     }
   }
+}
+
+.happy-client{
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: rgb(7, 53, 7);
+  font-weight: 600;
+}
+
+.client-feedback{
+  border-radius: 10px;
+
+}
+.client-feedback img{
+  border-radius: 10px;
+  filter: opacity(0.7);
+  cursor: pointer;
+}
+.client-feedback img:hover{
+  border-radius: 10px;
+  filter: opacity(1);
 }
