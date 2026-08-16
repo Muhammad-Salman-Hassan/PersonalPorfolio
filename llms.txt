@@ -1,0 +1,79 @@
+# Muhammad Salman — Full-Stack Developer
+
+> Full-stack developer based in Karachi, Pakistan with 3+ years of professional
+> experience building SaaS platforms, AI-powered web applications, real-time
+> dashboards and enterprise Fintech systems. Available for freelance and
+> full-time work, open to relocation. Hourly rate: $35/hr.
+
+## Core stack
+
+React · Next.js · Node.js · TypeScript · Supabase · PostgreSQL · MongoDB ·
+Redis · Express.js · OpenAI API · RAG pipelines · AWS · Docker · Tailwind CSS
+
+## Services
+
+- SaaS platform development, MVP through enterprise scale
+- AI-powered web applications with OpenAI and RAG integrations
+- Internal dashboards with real-time data and complex business logic
+- E-commerce storefronts with custom payment gateway integration
+- Frontend performance and technical SEO optimization (Core Web Vitals)
+
+## Selected work
+
+- **xNotify** — Enterprise omnichannel SMS/WhatsApp notification platform
+  processing millions of messages daily. Featured in Forbes; the product won
+  Best Anything as a Service (XaaS) Solution at the Global Connectivity Awards.
+  Improved delivery reliability by 20%.
+- **Kistpay** — Fintech lending platform. Built the customer portal (+15%
+  installment checkout conversion) and the internal lending dashboard with
+  real-time queue management via Redis and BullMQ. Cut Time-to-Interactive
+  by 28% and bundle size by 22%.
+- **Salik Management System** — Dubai toll management system with real-time
+  balance tracking and full payment gateway integration.
+- **ThinkMoves** — Chess game analyzer with custom move-evaluation and
+  blunder-detection algorithms. https://www.thinkmoves.com
+
+## Experience
+
+- Software Engineer, eOcean Pvt Ltd — June 2025 to present
+- Software Engineer, Kistpay Pvt Ltd (Fintech) — Feb 2023 to June 2025
+- Frontend Developer, KDYS Labs — Aug 2022 to Feb 2023
+
+## Education
+
+BS Computer Science, Federal Urdu University of Arts, Sciences & Technology
+(2019–2023), GPA 3.45/4.00
+
+## Common questions
+
+**Who is Muhammad Salman?** A full-stack developer based in Karachi, Pakistan
+with 3+ years of professional experience building SaaS platforms, AI-powered
+web applications and enterprise Fintech systems in React, Next.js, Node.js,
+Supabase and PostgreSQL.
+
+**What is his hourly rate?** $35 per hour. He also takes fixed-price projects.
+Every engagement includes unlimited revisions and on-time delivery.
+
+**Is he available for hire?** Yes — available now for freelance and full-time
+work, and can typically start within a week. Works remotely worldwide, open
+to relocation.
+
+**Does he build AI applications?** Yes — AI-powered web apps using the OpenAI
+API and RAG pipelines with vector databases, including document-grounded Q&A
+over private data and automated conversational workflows.
+
+**Can he optimise an existing React/Next.js app?** Yes — Core Web Vitals and
+technical SEO work including bundle-size reduction, structured data, SSR and
+render-blocking resource removal. Track record: Time-to-Interactive down 28%,
+bundle size down 22%, API response times down 25%.
+
+**What time zone?** Karachi, Pakistan (UTC+5). Full overlap with European
+business hours; mornings overlap with US hours.
+
+## Contact
+
+- Website: https://salmanhassan.netlify.app/
+- Email: msalmanhassan288311@gmail.com
+- LinkedIn: https://www.linkedin.com/in/salman-hassan-6a821a184/
+- GitHub: https://github.com/Muhammad-Salman-Hassan
+- Upwork: https://www.upwork.com/freelancers/~0160f2c92711e490ba
