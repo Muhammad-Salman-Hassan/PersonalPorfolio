@@ -1,9 +1,17 @@
 # Muhammad Salman — Full-Stack Developer
 
-> Full-stack developer based in Karachi, Pakistan with 3+ years of professional
-> experience building SaaS platforms, AI-powered web applications, real-time
-> dashboards and enterprise Fintech systems. Available for freelance and
-> full-time work, open to relocation. Hourly rate: $35/hr.
+> Top Rated full-stack developer on Upwork, based in Karachi, Pakistan, with
+> 3+ years of professional experience building SaaS platforms, AI-powered web
+> applications, real-time dashboards and enterprise Fintech systems. Available
+> for freelance and full-time work, open to relocation. Hourly rate: $35/hr.
+
+## Credentials
+
+- **Top Rated on Upwork** — Upwork's badge for freelancers sustaining a Job
+  Success Score of 90%+ with a consistent record of completed contracts.
+- **Featured in Forbes** — xNotify, a product he helped build and scale.
+- **Best Anything as a Service (XaaS) Solution**, Global Connectivity Awards —
+  as a contributor to the winning team at Eocean.
 
 ## Core stack
 
@@ -46,10 +54,14 @@ BS Computer Science, Federal Urdu University of Arts, Sciences & Technology
 
 ## Common questions
 
-**Who is Muhammad Salman?** A full-stack developer based in Karachi, Pakistan
-with 3+ years of professional experience building SaaS platforms, AI-powered
-web applications and enterprise Fintech systems in React, Next.js, Node.js,
-Supabase and PostgreSQL.
+**Who is Muhammad Salman?** A Top Rated full-stack developer on Upwork, based
+in Karachi, Pakistan, with 3+ years of professional experience building SaaS
+platforms, AI-powered web applications and enterprise Fintech systems in
+React, Next.js, Node.js, Supabase and PostgreSQL.
+
+**Is he Top Rated on Upwork?** Yes — Upwork awards Top Rated status to
+freelancers who sustain a Job Success Score of 90% or higher alongside a
+consistent record of completed contracts and satisfied clients.
 
 **What is his hourly rate?** $35 per hour. He also takes fixed-price projects.
 Every engagement includes unlimited revisions and on-time delivery.

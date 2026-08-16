@@ -6,7 +6,7 @@
 
     <!-- ==== PRIMARY SEO ==== -->
     <title>Muhammad Salman — Full-Stack Developer | React, Next.js, Node.js</title>
-    <meta name="description" content="Full-stack developer with 3+ years building SaaS platforms, AI-powered web apps and real-time dashboards in React, Next.js, Node.js and Supabase. Available now.">
+    <meta name="description" content="Top Rated Upwork full-stack developer building SaaS platforms, AI-powered web apps and real-time dashboards in React, Next.js, Node.js and Supabase. Available now.">
     <meta name="author" content="Muhammad Salman">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://salmanhassan.netlify.app/">
@@ -15,7 +15,7 @@
     <meta property="og:type" content="profile">
     <meta property="og:site_name" content="Muhammad Salman — Full-Stack Developer">
     <meta property="og:title" content="Muhammad Salman — Full-Stack Developer | React, Next.js, Node.js">
-    <meta property="og:description" content="I build SaaS platforms, AI-powered web apps and real-time dashboards with React, Next.js, Node.js and Supabase. One product I built was featured in Forbes and won Best XaaS Solution at the Global Connectivity Awards.">
+    <meta property="og:description" content="Top Rated on Upwork. I build SaaS platforms, AI-powered web apps and real-time dashboards with React, Next.js, Node.js and Supabase. One product I built was featured in Forbes and won Best XaaS Solution at the Global Connectivity Awards.">
     <meta property="og:url" content="https://salmanhassan.netlify.app/">
     <meta property="og:image" content="https://salmanhassan.netlify.app/me.png">
     <meta property="og:image:width" content="700">
@@ -28,7 +28,7 @@
     <!-- ==== TWITTER / X CARD ==== -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Muhammad Salman — Full-Stack Developer | React, Next.js, Node.js">
-    <meta name="twitter:description" content="SaaS platforms, AI-powered web apps and real-time dashboards with React, Next.js, Node.js and Supabase. Forbes-featured product.">
+    <meta name="twitter:description" content="Top Rated on Upwork. SaaS platforms, AI-powered web apps and real-time dashboards with React, Next.js, Node.js and Supabase. Forbes-featured product.">
     <meta name="twitter:image" content="https://salmanhassan.netlify.app/me.png">
 
     <meta name="theme-color" content="#4f46e5">
@@ -46,7 +46,11 @@
           "givenName": "Muhammad",
           "familyName": "Salman",
           "jobTitle": "Full-Stack Developer",
-          "description": "Full-Stack Developer with 3+ years of experience building SaaS platforms, AI-powered web applications, real-time dashboards and enterprise Fintech systems using React, Next.js, Node.js, Supabase and PostgreSQL.",
+          "description": "Top Rated Upwork full-stack developer with 3+ years of experience building SaaS platforms, AI-powered web applications, real-time dashboards and enterprise Fintech systems using React, Next.js, Node.js, Supabase and PostgreSQL.",
+          "award": [
+            "Top Rated freelancer on Upwork",
+            "Contributor to the team awarded Best Anything as a Service (XaaS) Solution at the Global Connectivity Awards"
+          ],
           "url": "https://salmanhassan.netlify.app/",
           "hasOccupation": {
             "@type": "Occupation",
@@ -160,7 +164,15 @@
               "name": "Who is Muhammad Salman?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Muhammad Salman is a full-stack developer based in Karachi, Pakistan, with over three years of professional experience building SaaS platforms, AI-powered web applications and enterprise Fintech systems. He works primarily with React, Next.js, Node.js, Supabase and PostgreSQL, and has held engineering roles at eOcean, Kistpay and KDYS Labs."
+                "text": "Muhammad Salman is a Top Rated full-stack developer on Upwork, based in Karachi, Pakistan, with over three years of professional experience building SaaS platforms, AI-powered web applications and enterprise Fintech systems. He works primarily with React, Next.js, Node.js, Supabase and PostgreSQL, and has held engineering roles at eOcean, Kistpay and KDYS Labs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is Muhammad Salman a Top Rated developer on Upwork?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Muhammad Salman holds Top Rated status on Upwork, a badge Upwork awards to freelancers who sustain a Job Success Score of 90% or higher along with a consistent record of completed contracts and satisfied clients. He can be hired directly through his Upwork profile at a rate of $35 per hour."
               }
             },
             {
@@ -443,6 +455,35 @@
             text-transform: uppercase;
         }
 
+        /* Hero credential badges */
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: .78rem;
+            font-weight: 600;
+            background: rgba(255, 255, 255, .15);
+            border: 1px solid rgba(255, 255, 255, .25);
+            color: #fff;
+            backdrop-filter: blur(4px);
+            transition: background .2s ease, border-color .2s ease;
+        }
+
+        .hero-badge-top {
+            background: rgba(251, 191, 36, .18);
+            border-color: rgba(251, 191, 36, .45);
+            color: #fde68a;
+        }
+
+        .hero-badge-top:hover {
+            background: rgba(251, 191, 36, .3);
+            border-color: rgba(251, 191, 36, .7);
+        }
+
+        .hero-badge .live-dot { margin-right: 0; }
+
         /* Quick Facts */
         .fact-grid {
             display: grid;
@@ -565,6 +606,40 @@
 
         .fact-award .fact-label { color: #93c5fd; }
         .fact-award .fact-value { color: #fff; font-weight: 600; }
+
+        .award-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .award-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 14px;
+            border-radius: 999px;
+            font-size: .8rem;
+            font-weight: 500;
+            background: rgba(255, 255, 255, .08);
+            border: 1px solid rgba(255, 255, 255, .16);
+            color: #e5e7eb;
+        }
+
+        .award-pill i { font-size: .72rem; opacity: .9; }
+
+        .award-pill-gold {
+            background: rgba(251, 191, 36, .16);
+            border-color: rgba(251, 191, 36, .42);
+            color: #fcd34d;
+            font-weight: 600;
+            transition: background .2s ease, border-color .2s ease;
+        }
+
+        .award-pill-gold:hover {
+            background: rgba(251, 191, 36, .26);
+            border-color: rgba(251, 191, 36, .65);
+        }
 
         @media (max-width: 900px) {
             .fact-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -854,7 +929,15 @@
                     <div class="flex-1 text-center md:text-left">
                         <h1 class="text-4xl md:text-5xl font-bold mb-3">Muhammad Salman</h1>
                         <p class="text-xl md:text-2xl font-light mb-2 text-indigo-100">Full-Stack Developer — React, Next.js, Node.js &amp; Supabase</p>
-                        <p class="text-sm md:text-base font-light mb-6 text-indigo-200">SaaS platforms · AI-powered web apps · Real-time dashboards</p>
+                        <p class="text-sm md:text-base font-light mb-4 text-indigo-200">SaaS platforms · AI-powered web apps · Real-time dashboards</p>
+                        <div class="flex flex-wrap justify-center md:justify-start gap-2 mb-6">
+                            <a href="https://www.upwork.com/freelancers/~0160f2c92711e490ba" target="_blank" rel="noopener noreferrer me" class="hero-badge hero-badge-top">
+                                <i class="fas fa-star" aria-hidden="true"></i> Top Rated on Upwork
+                            </a>
+                            <span class="hero-badge">
+                                <span class="live-dot" aria-hidden="true"></span> Available now
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-4 text-sm">
@@ -892,7 +975,7 @@
                 <section id="about" aria-labelledby="about-heading">
                     <h2 id="about-heading" class="section-title text-2xl font-bold text-gray-900">Professional Summary</h2>
                     <p class="text-gray-700 leading-relaxed">
-                        <strong>Full-stack developer</strong> with <strong>3+ years</strong> of professional experience building scalable SaaS platforms, AI-powered web applications, and enterprise-grade Fintech systems using <strong>React, Next.js, Node.js, Supabase and PostgreSQL</strong>. Proven track record optimizing system performance — reducing API response times by 25%, cutting Time-to-Interactive by 28% — and building real-time dashboards for high-traffic platforms. One product I helped build was <strong>featured in Forbes</strong> and won <strong>Best XaaS Solution</strong> at the Global Connectivity Awards. Available for freelance and full-time work, and open to relocation.
+                        <strong>Top Rated full-stack developer on Upwork</strong> with <strong>3+ years</strong> of professional experience building scalable SaaS platforms, AI-powered web applications, and enterprise-grade Fintech systems using <strong>React, Next.js, Node.js, Supabase and PostgreSQL</strong>. Proven track record optimizing system performance — reducing API response times by 25%, cutting Time-to-Interactive by 28% — and building real-time dashboards for high-traffic platforms. One product I helped build was <strong>featured in Forbes</strong> and won <strong>Best XaaS Solution</strong> at the Global Connectivity Awards. Available for freelance and full-time work, and open to relocation.
                     </p>
                 </section>
 
@@ -1379,7 +1462,19 @@
                                 <span class="fact-ico" aria-hidden="true"><i class="fas fa-trophy"></i></span>
                                 <span class="fact-label">Recognition</span>
                             </dt>
-                            <dd class="fact-value">Built a product featured in <strong>Forbes</strong> that won <strong>Best XaaS Solution</strong> at the Global Connectivity Awards</dd>
+                            <dd class="fact-value">
+                                <div class="award-list">
+                                    <a href="https://www.upwork.com/freelancers/~0160f2c92711e490ba" target="_blank" rel="noopener noreferrer me" class="award-pill award-pill-gold">
+                                        <i class="fas fa-star" aria-hidden="true"></i> Top Rated on Upwork
+                                    </a>
+                                    <span class="award-pill">
+                                        <i class="fas fa-newspaper" aria-hidden="true"></i> Product featured in Forbes
+                                    </span>
+                                    <span class="award-pill">
+                                        <i class="fas fa-trophy" aria-hidden="true"></i> Best XaaS Solution — Global Connectivity Awards
+                                    </span>
+                                </div>
+                            </dd>
                         </div>
 
                     </dl>
@@ -1399,13 +1494,24 @@
                                 <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
                             </summary>
                             <div class="faq-a">
-                                <p>Muhammad Salman is a full-stack developer based in Karachi, Pakistan, with over three years of professional experience building SaaS platforms, AI-powered web applications and enterprise Fintech systems. He works primarily with React, Next.js, Node.js, Supabase and PostgreSQL, and has held engineering roles at eOcean, Kistpay and KDYS Labs.</p>
+                                <p>Muhammad Salman is a Top Rated full-stack developer on Upwork, based in Karachi, Pakistan, with over three years of professional experience building SaaS platforms, AI-powered web applications and enterprise Fintech systems. He works primarily with React, Next.js, Node.js, Supabase and PostgreSQL, and has held engineering roles at eOcean, Kistpay and KDYS Labs.</p>
                             </div>
                         </details>
 
                         <details class="faq-item" name="faq">
                             <summary class="faq-q">
                                 <span class="faq-num" aria-hidden="true">02</span>
+                                <h3>Is Muhammad Salman a Top Rated developer on Upwork?</h3>
+                                <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
+                            </summary>
+                            <div class="faq-a">
+                                <p>Yes. Muhammad Salman holds Top Rated status on Upwork, a badge Upwork awards to freelancers who sustain a Job Success Score of 90% or higher along with a consistent record of completed contracts and satisfied clients. He can be hired directly through his Upwork profile at a rate of $35 per hour.</p>
+                            </div>
+                        </details>
+
+                        <details class="faq-item" name="faq">
+                            <summary class="faq-q">
+                                <span class="faq-num" aria-hidden="true">03</span>
                                 <h3>What does Muhammad Salman specialise in?</h3>
                                 <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
                             </summary>
@@ -1416,7 +1522,7 @@
 
                         <details class="faq-item" name="faq">
                             <summary class="faq-q">
-                                <span class="faq-num" aria-hidden="true">03</span>
+                                <span class="faq-num" aria-hidden="true">04</span>
                                 <h3>What is Muhammad Salman's hourly rate?</h3>
                                 <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
                             </summary>
@@ -1427,7 +1533,7 @@
 
                         <details class="faq-item" name="faq">
                             <summary class="faq-q">
-                                <span class="faq-num" aria-hidden="true">04</span>
+                                <span class="faq-num" aria-hidden="true">05</span>
                                 <h3>Is Muhammad Salman available for hire?</h3>
                                 <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
                             </summary>
@@ -1438,7 +1544,7 @@
 
                         <details class="faq-item" name="faq">
                             <summary class="faq-q">
-                                <span class="faq-num" aria-hidden="true">05</span>
+                                <span class="faq-num" aria-hidden="true">06</span>
                                 <h3>Does Muhammad Salman build AI-powered applications?</h3>
                                 <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
                             </summary>
@@ -1449,7 +1555,7 @@
 
                         <details class="faq-item" name="faq">
                             <summary class="faq-q">
-                                <span class="faq-num" aria-hidden="true">06</span>
+                                <span class="faq-num" aria-hidden="true">07</span>
                                 <h3>What is xNotify?</h3>
                                 <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
                             </summary>
@@ -1460,7 +1566,7 @@
 
                         <details class="faq-item" name="faq">
                             <summary class="faq-q">
-                                <span class="faq-num" aria-hidden="true">07</span>
+                                <span class="faq-num" aria-hidden="true">08</span>
                                 <h3>Can Muhammad Salman improve the performance and SEO of an existing React or Next.js app?</h3>
                                 <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
                             </summary>
@@ -1471,7 +1577,7 @@
 
                         <details class="faq-item" name="faq">
                             <summary class="faq-q">
-                                <span class="faq-num" aria-hidden="true">08</span>
+                                <span class="faq-num" aria-hidden="true">09</span>
                                 <h3>Where is Muhammad Salman based and which time zones does he work in?</h3>
                                 <span class="faq-icon" aria-hidden="true"><i class="fas fa-chevron-down"></i></span>
                             </summary>
