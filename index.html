@@ -6,7 +6,7 @@
 
     <!-- ==== PRIMARY SEO ==== -->
     <title>Muhammad Salman — Full-Stack Developer | React, Next.js, Node.js</title>
-    <meta name="description" content="Top Rated Upwork full-stack developer building SaaS platforms, AI-powered web apps and real-time dashboards in React, Next.js, Node.js and Supabase. Available now.">
+    <meta name="description" content="Top Rated Upwork full-stack developer building SaaS platforms, AI-powered web apps and real-time dashboards in React, Next.js, Node.js and Supabase, with manual QA and API testing experience. Available now.">
     <meta name="author" content="Muhammad Salman">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://salmanhassan.netlify.app/">
@@ -57,7 +57,7 @@
             "@type": "Occupation",
             "name": "Full-Stack Developer",
             "occupationalCategory": "15-1252.00",
-            "skills": "React, Next.js, Node.js, TypeScript, Supabase, PostgreSQL, OpenAI, RAG, AWS, Redis",
+            "skills": "React, Next.js, Node.js, TypeScript, Supabase, PostgreSQL, OpenAI, RAG, AWS, Redis, Manual QA, API testing, Postman, Jira",
             "estimatedSalary": {
               "@type": "MonetaryAmountDistribution",
               "name": "hourly rate",
@@ -122,7 +122,8 @@
             "OpenAI API", "Retrieval-Augmented Generation (RAG)", "AI web applications",
             "AWS", "Docker", "Tailwind CSS",
             "Core Web Vitals optimization", "Technical SEO", "Frontend performance optimization",
-            "SaaS development", "E-commerce development", "Fintech applications"
+            "SaaS development", "E-commerce development", "Fintech applications",
+            "Manual QA testing", "Regression testing", "Cross-browser testing", "API testing with Postman", "Bug reporting"
           ],
           "sameAs": [
             "https://www.linkedin.com/in/salman-hassan-6a821a184/",
@@ -485,7 +486,7 @@
 
         .hero-status a { transition: color .2s ease; }
         .hero-status a:hover { color: var(--text); }
-        .hero-status .fa-star { margin-right: 6px; color: var(--accent-text); font-size: .8em; }
+        .hero-status .fa-star, .hero-status .fa-bug { margin-right: 6px; color: var(--accent-text); font-size: .8em; }
 
         .live-dot {
             display: inline-block;
@@ -577,6 +578,53 @@
 
         @media (min-width: 640px) {
             .edu-facts { text-align: right; }
+        }
+
+        /* ==== Quality assurance ==== */
+        .qa-intro { max-width: 60ch; margin: -24px 0 36px; color: var(--muted); }
+
+        .qa-grid { display: grid; gap: 16px; }
+
+        .qa-report {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding: 28px;
+            overflow: hidden;
+            border-radius: var(--radius);
+            background: linear-gradient(140deg, #1e2a16, #3b4f20);
+            color: #e9f0d8;
+        }
+
+        .qa-report .card-bg { color: #cfe58f; font-size: 11rem; opacity: .12; }
+        .qa-report > :not(.card-bg) { position: relative; }
+        .qa-report-kind { display: flex; align-items: center; gap: 8px; color: #cfe58f; font-size: .875rem; font-weight: 600; }
+        .qa-report h3 { font-size: clamp(1.4rem, 2.6vw, 1.7rem); font-weight: 600; line-height: 1.25; letter-spacing: -.02em; }
+        .qa-report p:not(.qa-report-kind) { color: #cdd6bd; font-size: .98rem; line-height: 1.6; }
+        .qa-report .tag { background: rgba(255, 255, 255, .12); color: #e9f0d8; }
+        .qa-report .tag-list { margin-top: auto; padding-top: 8px; }
+
+        .qa-skills {
+            display: grid;
+            gap: 24px;
+            padding: 28px;
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            background: var(--surface);
+        }
+
+        .qa-group h3 { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; font-size: 1rem; font-weight: 600; }
+        .qa-group h3 i { color: var(--accent-text); font-size: .9em; }
+
+        .qa-actions { margin-top: 24px; }
+
+        @media (min-width: 640px) {
+            .qa-skills { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+
+        @media (min-width: 1024px) {
+            .qa-grid { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); }
         }
 
         /* ==== Projects ==== */
@@ -1060,6 +1108,7 @@
 
             <nav class="site-nav" aria-label="Primary">
                 <a href="#experience" class="nav-link">Work</a>
+                <a href="#qa" class="nav-link">QA</a>
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
@@ -1082,6 +1131,7 @@
         <button class="icon-btn mobile-menu-close" id="mobileMenuClose" type="button" aria-label="Close menu"><i class="fas fa-times" aria-hidden="true"></i></button>
         <nav class="mobile-nav" aria-label="Mobile primary">
             <a href="#experience" class="mobile-link">Work</a>
+            <a href="#qa" class="mobile-link">QA</a>
             <a href="#projects" class="mobile-link">Projects</a>
             <a href="#contact" class="mobile-link">Contact</a>
             <div class="footer-social">
@@ -1110,14 +1160,15 @@
                 <div class="hero-grid">
                     <div>
                         <p class="hero-hello">Hey, I'm Muhammad</p>
-                        <h1 class="hero-title">Full-Stack Developer &amp; AI-Powered Web Apps.</h1>
-                        <p class="hero-sub">From SaaS platforms to intelligent automation, I design, build and ship digital products from the first idea to production.</p>
+                        <h1 class="hero-title">Full-Stack Developer &amp; QA Engineer.</h1>
+                        <p class="hero-sub">From SaaS platforms to AI-powered web apps, I design, build, test and ship digital products from the first idea to production.</p>
                         <div class="hero-actions">
                             <a href="#contact" class="btn btn-accent">Let's talk <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                             <a href="#projects" class="btn btn-outline">Explore projects</a>
                         </div>
                         <div class="hero-status">
                             <a href="https://www.upwork.com/freelancers/~0160f2c92711e490ba" target="_blank" rel="noopener noreferrer me"><i class="fas fa-star" aria-hidden="true"></i>Top Rated on Upwork</a>
+                            <a href="#qa"><i class="fas fa-bug" aria-hidden="true"></i>Manual QA, Web and API</a>
                             <span><span class="live-dot" aria-hidden="true"></span>Available now</span>
                         </div>
                     </div>
@@ -1128,7 +1179,7 @@
                              class="hero-photo">
                         <span class="photo-chip" aria-hidden="true"><i class="fab fa-react"></i></span>
                         <span class="photo-chip" aria-hidden="true"><i class="fas fa-robot"></i></span>
-                        <span class="photo-chip" aria-hidden="true"><i class="fab fa-node-js"></i></span>
+                        <span class="photo-chip" aria-hidden="true"><i class="fas fa-bug"></i></span>
                     </div>
                 </div>
 
@@ -1292,6 +1343,7 @@
                             <span class="tag">Node.js</span>
                             <span class="tag">React.js</span>
                             <span class="tag">WhatsApp API</span>
+                            <span class="tag">Postman</span>
                         </div>
                     </div>
 
@@ -1338,6 +1390,95 @@
                         <div>GPA 3.45 / 4.00</div>
                         <div>2019 - 2023</div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quality Assurance -->
+        <section id="qa" class="section" aria-labelledby="qa-heading">
+            <i class="fas fa-bug section-icon" aria-hidden="true"></i>
+            <div class="container">
+                <h2 id="qa-heading" class="section-heading reveal">Quality Assurance</h2>
+                <p class="qa-intro reveal">I also work as a manual QA engineer on web, API and fintech products, bringing a developer's understanding of where systems break.</p>
+
+                <div class="qa-grid">
+                    <article class="qa-report reveal">
+                        <i class="fas fa-bug card-bg" aria-hidden="true"></i>
+                        <p class="qa-report-kind"><i class="fas fa-shield-halved" aria-hidden="true"></i> Independent bug report, 2026</p>
+                        <h3>Upwork platform defect, escalated to their Technical Team</h3>
+                        <p>Identified and isolated a platform defect, then documented it with step-by-step test cases, Loom reproduction recordings and a network HAR file. Upwork Support awarded 30 Connects in recognition and invited me to submit through Upwork's official Bugcrowd program.</p>
+                        <div class="tag-list">
+                            <span class="tag">Test cases</span>
+                            <span class="tag">Loom recordings</span>
+                            <span class="tag">HAR file</span>
+                        </div>
+                    </article>
+
+                    <div class="qa-skills reveal">
+                        <div class="qa-group">
+                            <h3><i class="fas fa-list-check" aria-hidden="true"></i> Testing types</h3>
+                            <div class="tag-list">
+                                <span class="tag">Functional</span>
+                                <span class="tag">Regression</span>
+                                <span class="tag">Smoke</span>
+                                <span class="tag">Exploratory</span>
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">Cross-browser</span>
+                                <span class="tag">Responsive</span>
+                            </div>
+                        </div>
+                        <div class="qa-group">
+                            <h3><i class="fas fa-file-lines" aria-hidden="true"></i> Test artifacts</h3>
+                            <div class="tag-list">
+                                <span class="tag">Test plans</span>
+                                <span class="tag">Test cases</span>
+                                <span class="tag">Test scenarios</span>
+                                <span class="tag">Bug reports</span>
+                                <span class="tag">Summary reports</span>
+                            </div>
+                        </div>
+                        <div class="qa-group">
+                            <h3><i class="fas fa-plug" aria-hidden="true"></i> API testing</h3>
+                            <div class="tag-list">
+                                <span class="tag">Postman</span>
+                                <span class="tag">Status codes</span>
+                                <span class="tag">Payload validation</span>
+                                <span class="tag">Auth validation</span>
+                            </div>
+                        </div>
+                        <div class="qa-group">
+                            <h3><i class="fas fa-magnifying-glass" aria-hidden="true"></i> Debugging</h3>
+                            <div class="tag-list">
+                                <span class="tag">Chrome DevTools</span>
+                                <span class="tag">HAR analysis</span>
+                                <span class="tag">Network inspection</span>
+                                <span class="tag">Log analysis</span>
+                            </div>
+                        </div>
+                        <div class="qa-group">
+                            <h3><i class="fas fa-database" aria-hidden="true"></i> Data validation</h3>
+                            <div class="tag-list">
+                                <span class="tag">SQL (MySQL)</span>
+                                <span class="tag">Redis</span>
+                                <span class="tag">BullMQ queue states</span>
+                            </div>
+                        </div>
+                        <div class="qa-group">
+                            <h3><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i> Tools and process</h3>
+                            <div class="tag-list">
+                                <span class="tag">Jira</span>
+                                <span class="tag">Git</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">Agile / Scrum</span>
+                                <span class="tag">SDLC &amp; STLC</span>
+                                <span class="tag">Severity triage</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qa-actions reveal">
+                    <a href="./qa-resume.pdf" class="btn btn-outline"><i class="fas fa-download" aria-hidden="true"></i> Download QA resume</a>
                 </div>
             </div>
         </section>
@@ -1546,6 +1687,7 @@
                                 <option value="AI / Automation">AI / Automation</option>
                                 <option value="Real-time Dashboard">Real-time Dashboard</option>
                                 <option value="E-commerce">E-commerce</option>
+                                <option value="QA / Testing">QA / Testing</option>
                                 <option value="Other">Other</option>
                             </select>
                         </div>
@@ -1594,6 +1736,7 @@
                 <nav class="footer-links" aria-label="Footer">
                     <a href="#hero">Home</a>
                     <a href="#experience">Work</a>
+                    <a href="#qa">QA</a>
                     <a href="#projects">Projects</a>
                     <a href="./cv.pdf">Download CV</a>
                 </nav>

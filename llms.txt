@@ -12,6 +12,8 @@
 - **Featured in Forbes** — xNotify, a product he helped build and scale.
 - **Best Anything as a Service (XaaS) Solution**, Global Connectivity Awards —
   as a contributor to the winning team at Eocean.
+- **Upwork bug report (2026)** — independently reported a platform defect that
+  Upwork Support escalated to its Technical Team and recognized with 30 Connects.
 
 ## Core stack
 
@@ -25,6 +27,8 @@ Redis · Express.js · OpenAI API · RAG pipelines · AWS · Docker · Tailwind 
 - Internal dashboards with real-time data and complex business logic
 - E-commerce storefronts with custom payment gateway integration
 - Frontend performance and technical SEO optimization (Core Web Vitals)
+- Manual QA for web, API and fintech products: functional, regression,
+  cross-browser and API testing with Postman, Jira and Chrome DevTools
 
 ## Selected work
 
